@@ -1,0 +1,17 @@
+Módulo Final de Introducción al Diseño de Sistemas Domóticos.
+
+Projecto: Sistema de Control de Temperatura y medición de corriente de un AA.
+Descripción: En este proyecto se lleva a cabo la medición de la temperatura de una habitacion y el uso de potencia utilizada en un AA , los datos son enviados a ThingSpeak (IoT dashboard online) donde se muestran los datos de forma histórica.
+
+Dispositivos utilizados:
+- Arduino NANO v3.
+- ESP 8266 (WIFI).
+- DHT11.
+- Batería.
+- SCT013
+
+Codes:
+- control_temp_and_corriente.ino código donde se encuentra la lógica del proyecto, configuraciones, mediciones, etc.
+- dht.ccp es una clase empleada por el dispositivo DHT11.
+- dht.h es la librería para DHT11.
+
